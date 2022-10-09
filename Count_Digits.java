@@ -1,6 +1,6 @@
 /*package whatever //do not write package name here */
 
-class GFG {
+class Count_Digits {
 
 	
 	static int countDigits(int x)
@@ -19,7 +19,7 @@ class GFG {
 
 	public static void main (String[] args) {
 		
-		int number = 324424349;
+		int number = 324349;
 
 		System.out.println(countDigits(number));
 
