@@ -25,7 +25,8 @@ class Palindrome_or_not {
 		// return 1;
         // else
         // return 0;
-
+        
+// better approach
         int rev=0, temp=x , a;
             
         while(temp>0){
