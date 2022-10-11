@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Sieve_of_Eratosthenes {
+class Sieve_of_Eratosthenes {
 
     static int sieve_of_Eratosthenes_naive(int n){
 

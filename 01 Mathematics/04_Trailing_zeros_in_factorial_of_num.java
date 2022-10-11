@@ -1,4 +1,4 @@
-public class Trailing_zeros_in_factorial_of_num {
+class Trailing_zeros_in_factorial_of_num {
     
     static int trailing_zeros_in_factorial_of_num(int x)
 	{
