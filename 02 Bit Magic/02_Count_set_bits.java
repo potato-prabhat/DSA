@@ -38,6 +38,7 @@ class Count_set_bits {
     static int count_set_bits_lookup_table_method(int n)
     {
         int[] table= new int[256];
+        int res;
         Arrays.fill(table, 0);
 
         for(int i=0; i<256;i++)
@@ -45,7 +46,7 @@ class Count_set_bits {
             table[i] = (i&1) + table[i/2];
         }
 
-        int res = table[n&0xff];
+        res = table[n&0xff];
         n=n>>8;
         res = res+ table[n&0xff];
         n=n>>8;
