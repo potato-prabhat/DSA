@@ -25,7 +25,7 @@ class Count_set_bits {
 
     static int count_set_bits_brian_kernigam_method(int n)
     {
-        int res=0;int x;
+        int res=0;
         while(n>0)
         {
             n=(n&(n-1));
