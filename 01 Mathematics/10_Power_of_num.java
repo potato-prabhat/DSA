@@ -1,5 +1,5 @@
 
-public class Power_of_num{
+class Power_of_num{
     static int power_of_num_naive(int a, int b){
         int res=1;
 

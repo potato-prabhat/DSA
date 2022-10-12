@@ -1,4 +1,4 @@
-public class prime_factors_of_number {
+class prime_factors_of_number {
     static int Prime_factors_of_number(int x)
 	{int temp=x;
         for(int i=2;i*i<=x;i++){

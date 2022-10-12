@@ -1,5 +1,4 @@
-
-public class divisors_of_number {
+class divisors_of_number {
     static int Divisors_of_number(int x)
 	{
         for(int i=1;i<=x;i++)
