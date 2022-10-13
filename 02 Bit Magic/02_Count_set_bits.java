@@ -38,7 +38,7 @@ class Count_set_bits {
     {
         int[] table= new int[256];
         int res;
-        Arrays.fill(table, 0);
+        //Arrays.fill(table, 0);
 
         for(int i=0; i<256;i++)
         {
@@ -58,7 +58,7 @@ class Count_set_bits {
     }
 
     public static void main(String[] args) {
-        int x=10;
+        int x=100000;
         System.out.println(count_set_bits_naive(x));
         System.out.println(count_set_bits_brian_kernigam_method(x));
         System.out.println(count_set_bits_lookup_table_method(x));
