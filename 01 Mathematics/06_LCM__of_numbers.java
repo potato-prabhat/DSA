@@ -33,7 +33,7 @@ class LCM__of_numbers {
     }
 	public static void main (String[] args) {
         int a ,b;
-        a=3; b=7;
+        a=1; b=2;
 		int lcm= lcm_of_numbers(a,b);
         System.out.println(lcm);
 	}
